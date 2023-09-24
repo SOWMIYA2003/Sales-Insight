@@ -27,7 +27,26 @@ By using the interative PowerBi DashBoard the sales director will be able to
 #3 . track revenue trends.
 
 Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
+## DataSet : 
+We are provided with a database named "sales".
+The database has five tables namely customers , date , markets , products and transactions. 
+### Customer table : 
+![a1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/f78c96af-97e3-4f5c-8e10-2d0f40ac9be1)
 
+### Date table :
+![a2](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/39eaf6e4-d577-4a1e-a75a-5af6c6c6b214)
+
+### Markets table :
+### Products table :
+### Transaction tables : 
+## SQL:
+
+## Data wrangling and Data munging :
+
+## PowerBI : 
+
+
+## Links And Reference :
 ### SQL DOWNLOAD LINK :
 ```
 https://dev.mysql.com/downloads/file/?id=520407

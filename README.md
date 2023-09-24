@@ -6,12 +6,16 @@ Let's say that there is a company named 'A' who supplies computer hardware and p
 The problem is that these conversations are verbal.Even though the managers come up with excel files , its a hugh number of data for the sales director to go through and figure out the need.
 
 The sales director just expects the managers to give a statistical data which are in simpler terms inorder to focus on the weak area that they need to work on inorder to grow their bussiness further.
+
 ## Approach towards End goal : 
 Project Planning : We will be using AIMS Grid to tackle the problem and find the strategy to solve the problem.
 
 ![0 eDWDhAySSL-OlVg-](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d11f242c-28e0-4009-91a0-c54b677dc370)
 
+![Screenshot 2023-09-24 231726](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/2e85bc95-ad71-41bd-9c7c-7f9537400c80)
+
 Followed by Data discovery , Data cleaning , Data merging and finally generating an interactive dashboard in Power BI.
+
 ## End goal :
 
 By using the interative PowerBi DashBoard the sales director will be able to 

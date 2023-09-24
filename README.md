@@ -36,7 +36,14 @@ The database has five tables namely customers , date , markets , products and tr
 ### Transaction tables : 
 ![a5](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/318e9d2b-5189-4315-ba13-05714843c034)
 
-## Buliding Data Model :
+## Data Model :
+
+Building the data model. 
+
+Once the data tables are loaded into the PowerBI , it creates a data model that establish the realtion among differnt tables between the coulmns present in the table. This helps the data analyst to analyse the data in a better rate and come up with efficient results.
+
+![11](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e600e599-6cb9-49d6-ac2d-9620bc806aaa)
+
 
 ## Data wrangling and Data munging :
 

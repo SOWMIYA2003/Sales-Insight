@@ -16,20 +16,11 @@ Project Planning : We will be using AIMS Grid to tackle the problem and find the
 
 Followed by Data discovery , Data cleaning , Data merging and finally generating an interactive dashboard in Power BI.
 
-## End goal :
-
-By using the interative PowerBi DashBoard the sales director will be able to 
-
-#1 . track revenue numbers and sales quantity numbers over the years .
-
-#2 . track revenue breakdown by regional states.
-
-#3 . track revenue trends.
-
-Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
 ## DataSet : 
 We are provided with a database named "sales".
+
 The database has five tables namely customers , date , markets , products and transactions. 
+
 ### Customer table : 
 ![a1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/f78c96af-97e3-4f5c-8e10-2d0f40ac9be1)
 
@@ -45,9 +36,48 @@ The database has five tables namely customers , date , markets , products and tr
 ### Transaction tables : 
 ![a5](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/318e9d2b-5189-4315-ba13-05714843c034)
 
-## SQL:
-
 ## Data wrangling and Data munging :
+The above tables may contain some null values.
+
+It might contain some inappropriate values like negative and zero values.
+
+It might have duplicate records.
+
+It might have terms expressed in differnt formats ( example : the monetary terms can vary based on international sales exports).
+
+Inorder to handle all these issues we need to clean the data first. In simple terms , if we resolve the above issues our data tables will be cleaned and secure enough to produce the correct results during data processing.
+
+#### Removing the Null values from Markets table (column - zone): 
+![ab](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/56bfe2e2-c57e-4658-a436-b279fd5a6686)
+
+![b1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/00309bcf-f80c-4989-a7ad-6a611f3dc761)
+#### Removing values that are less than and equal to 0 from transaction table (column - sales_amount):
+```
+SELECT * FROM sales.transactions where transactions.sales_amount<=0;
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM sales.transactions WHERE sales_amount <= 0;
+select * from sales.transactions;
+```
+
+#### Converting monetary terms from USD to INR : 
+
+
+
+
+## End goal :
+
+By using the interative PowerBi DashBoard the sales director will be able to 
+
+#1 . track revenue numbers and sales quantity numbers over the years .
+
+#2 . track revenue breakdown by regional states.
+
+#3 . track revenue trends.
+
+Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
+
+
+
 
 ## PowerBI : 
 

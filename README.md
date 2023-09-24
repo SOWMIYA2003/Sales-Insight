@@ -10,11 +10,13 @@ The sales director just expects the managers to give a statistical data which ar
 We will be using AIMS Grid to tackle the problem and find the strategy to solve the problem.
 Followed by Data discovery , Data cleaning , Data merging and finally generating an interactive dashboard in Power BI.
 ## End goal :
+```
 By using the interative PowerBi DashBoard the sales director will be able to 
-# 1 . track revenue numbers and sales quantity numbers over the years .
-# 2 . track revenue breakdown by regional states.
-# 3 . track revenue trends.
+#1 . track revenue numbers and sales quantity numbers over the years .
+#2 . track revenue breakdown by regional states.
+#3 . track revenue trends.
 Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
+```
 ### SQL DOWNLOAD LINK :
 ```
 https://dev.mysql.com/downloads/file/?id=520407

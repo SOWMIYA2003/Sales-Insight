@@ -37,8 +37,14 @@ The database has five tables namely customers , date , markets , products and tr
 ![a2](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/39eaf6e4-d577-4a1e-a75a-5af6c6c6b214)
 
 ### Markets table :
+![a3](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/afb8b151-d36d-495c-9301-40af5d3ba03d)
+
 ### Products table :
+![a4](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/4509b86e-1898-40ad-a59c-eb2f1c50dfa9)
+
 ### Transaction tables : 
+![a5](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/318e9d2b-5189-4315-ba13-05714843c034)
+
 ## SQL:
 
 ## Data wrangling and Data munging :

@@ -37,6 +37,7 @@ The database has five tables namely customers , date , markets , products and tr
 ![a5](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/318e9d2b-5189-4315-ba13-05714843c034)
 
 ## Data wrangling and Data munging :
+
 1. The above tables may contain some null values.
 
 2 . It might contain some inappropriate values like negative and zero values.
@@ -64,7 +65,8 @@ select * from sales.transactions;
 ```
 SELECT * FROM sales.transactions where currency = "USD" or currency = "USD\r";![image]
 ```
-(https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d09a5926-efeb-431b-94f4-ac87b7323f2c)
+![aa1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/c81788b0-31e5-4b1f-8c89-3602d16f52ea)
+
 ```
 Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrency]="USD#(cr)" then [sales_amount]*75 else [sales_amount])
 ```

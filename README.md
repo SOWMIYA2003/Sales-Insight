@@ -13,7 +13,9 @@ Followed by Data discovery , Data cleaning , Data merging and finally generating
 The interactive PowerBi dashboard is used to : 
 
 #1 . track revenue numbers and sales quantity numbers over the years .
+
 #2 . track revenue breakdown by regional states.
+
 #3 . track revenue trends.
 ### SQL DOWNLOAD LINK :
 ```

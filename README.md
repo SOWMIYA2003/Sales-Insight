@@ -44,10 +44,9 @@ Once the data tables are loaded into the PowerBI , it creates a data model that 
 
 ![11](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e600e599-6cb9-49d6-ac2d-9620bc806aaa)
 
-
 ## Data wrangling and Data munging :
 
-1. The above tables may contain some null values.
+1 . The above tables may contain some null values.
 
 2 . It might contain some inappropriate values like negative and zero values.
 

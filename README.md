@@ -107,6 +107,10 @@ Revenue and Sales Quantity are created and used as the Base Measures for the das
 ### Final Report : 
 ![report](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d57fc7c5-4149-4b55-8bd6-93fb7ac7e496)
 
+
+## Validation \ Cross Checking : 
+
+
 ## End goal :
 
 By using the interative PowerBi DashBoard the sales director will be able to 

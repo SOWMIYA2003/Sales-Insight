@@ -37,13 +37,13 @@ The database has five tables namely customers , date , markets , products and tr
 ![a5](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/318e9d2b-5189-4315-ba13-05714843c034)
 
 ## Data wrangling and Data munging :
-The above tables may contain some null values.
+1. The above tables may contain some null values.
 
-It might contain some inappropriate values like negative and zero values.
+2 . It might contain some inappropriate values like negative and zero values.
 
-It might have duplicate records.
+3 . It might have duplicate records.
 
-It might have terms expressed in differnt formats ( example : the monetary terms can vary based on international sales exports).
+4 . It might have terms expressed in differnt formats ( example : the monetary terms can vary based on international sales exports).
 
 Inorder to handle all these issues we need to clean the data first. In simple terms , if we resolve the above issues our data tables will be cleaned and secure enough to produce the correct results during data processing.
 
@@ -58,11 +58,17 @@ SET SQL_SAFE_UPDATES = 0;
 DELETE FROM sales.transactions WHERE sales_amount <= 0;
 select * from sales.transactions;
 ```
+![b4](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/24095504-a549-4e7e-a27a-8aef509c8c89)
 
 #### Converting monetary terms from USD to INR : 
-
-
-
+```
+SELECT * FROM sales.transactions where currency = "USD" or currency = "USD\r";![image]
+```
+(https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d09a5926-efeb-431b-94f4-ac87b7323f2c)
+```
+Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrency]="USD#(cr)" then [sales_amount]*75 else [sales_amount])
+```
+![c2n](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/4aef6211-df8c-4c45-b421-3540d6ac153c)
 
 ## End goal :
 

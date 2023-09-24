@@ -72,6 +72,8 @@ Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrenc
 ```
 ![c2n](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/4aef6211-df8c-4c45-b421-3540d6ac153c)
 
+## PowerBI : 
+
 ## End goal :
 
 By using the interative PowerBi DashBoard the sales director will be able to 
@@ -84,14 +86,12 @@ By using the interative PowerBi DashBoard the sales director will be able to
 
 Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
 
-
-
-
-## PowerBI : 
-
-
 ## Links And Reference :
-### SQL DOWNLOAD LINK :
+##### SQL DOWNLOAD LINK :
 ```
 https://dev.mysql.com/downloads/file/?id=520407
+```
+##### POWERBI DOWNLOAD LINK : 
+```
+https://aka.ms/pbidesktopstore
 ```

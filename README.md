@@ -36,6 +36,8 @@ The database has five tables namely customers , date , markets , products and tr
 ### Transaction tables : 
 ![a5](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/318e9d2b-5189-4315-ba13-05714843c034)
 
+## Buliding Data Model :
+
 ## Data wrangling and Data munging :
 
 1. The above tables may contain some null values.
@@ -72,7 +74,12 @@ Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrenc
 ```
 ![c2n](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/4aef6211-df8c-4c45-b421-3540d6ac153c)
 
+
 ## PowerBI : 
+##### Interface for creating Report : Data Visualization is done here.
+![page](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8561f2b0-6ff1-48a4-82a9-b595789098ec)
+##### Report : 
+![report](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d57fc7c5-4149-4b55-8bd6-93fb7ac7e496)
 
 ## End goal :
 

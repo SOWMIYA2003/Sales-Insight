@@ -56,11 +56,11 @@ Once the data tables are loaded into the PowerBI , it creates a data model that 
 
 Inorder to handle all these issues we need to clean the data first. In simple terms , if we resolve the above issues our data tables will be cleaned and secure enough to produce the correct results during data processing.
 
-#### Removing the Null values from Markets table (column - zone): 
+### Removing the Null values from Markets table (column - zone): 
 ![ab](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/56bfe2e2-c57e-4658-a436-b279fd5a6686)
 
 ![b1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/00309bcf-f80c-4989-a7ad-6a611f3dc761)
-#### Removing values that are less than and equal to 0 from transaction table (column - sales_amount):
+### Removing values that are less than and equal to 0 from transaction table (column - sales_amount):
 ```
 SELECT * FROM sales.transactions where transactions.sales_amount<=0;
 SET SQL_SAFE_UPDATES = 0;
@@ -69,7 +69,7 @@ select * from sales.transactions;
 ```
 ![b4](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/24095504-a549-4e7e-a27a-8aef509c8c89)
 
-#### Converting monetary terms from USD to INR : 
+### Converting monetary terms from USD to INR : 
 ```
 SELECT * FROM sales.transactions where currency = "USD" or currency = "USD\r";![image]
 ```
@@ -82,9 +82,29 @@ Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrenc
 
 
 ## PowerBI : 
-##### Interface for creating Report : Data Visualization is done here.
+### Interface for creating Report : Data Visualization is done here.
 ![page](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8561f2b0-6ff1-48a4-82a9-b595789098ec)
-##### Report : 
+
+For our problem statement , we need to analyse the market status in different areas or zones to get the inference on the sales. And based on the sales insight and the trends the sales director will implement some ideas and solution to make the weak areas into stronger ones.
+### Revenue and Sales :
+Revenue and Sales Quantity are created and used as the Base Measures for the dashboard.
+
+![1rev](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e50ab082-671c-4716-8a69-ed3e3802b3e0)
+![1sale](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b5b8d95c-4685-4a15-8c72-2523db448a7e)
+### Revenue By Market :
+![1revmar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb643870-e766-4d68-930f-423986fd3824)
+### Sales Quantity By Market : 
+![1salemar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb38e0a9-0057-4bab-b4b5-491194327ce5)
+### Time Scale : 
+![1year](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/6a2a68c3-b5c2-4e2b-82e5-43bd09bd3725)
+![1date](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/7e9d01fb-3dcb-499e-aba3-377860949d31)
+### Top 5 Customers : 
+![15cus](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/abf00e6b-5a45-4ea6-8d05-341af517230c)
+### Top 5 Products : 
+![15pro](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/697a3fe8-1b75-489c-ade4-a416abe41819)
+### Revenue Trend : 
+![1trend](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/ec9305b0-ebe6-4350-901f-b207191af336)
+### Final Report : 
 ![report](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d57fc7c5-4149-4b55-8bd6-93fb7ac7e496)
 
 ## End goal :
@@ -99,7 +119,7 @@ By using the interative PowerBi DashBoard the sales director will be able to
 
 Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
 
-## Links And Reference :
+## Links :
 ##### SQL DOWNLOAD LINK :
 ```
 https://dev.mysql.com/downloads/file/?id=520407

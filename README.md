@@ -35,7 +35,7 @@ The database has five tables namely customers , date , markets , products and tr
 
 ## Data Model :
 
-Building the data model. 
+Building the data model for analysis.
 
 Once the data tables are loaded into the PowerBI , it creates a data model that establish the realtion among differnt tables between the coulmns present in the table. This helps the data analyst to analyse the data in a better rate and come up with efficient results.
 
@@ -83,17 +83,34 @@ Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrenc
 ![page](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8561f2b0-6ff1-48a4-82a9-b595789098ec)
 
 For our problem statement , we need to analyse the market status in different areas or zones to get the inference on the sales. And based on the sales insight and the trends the sales director will implement some ideas and solution to make the weak areas into stronger ones.
-### Revenue and Sales :
-Revenue and Sales Quantity are created and used as the Base Measures for the dashboard.
+### Revenue and Sales - Card :
+Revenue and Sales Quantity are created and used as the Base Measures inorder to polt differnt UI elements.
+
+Revenue is gonna be the sum of sales_amount column from the tarnasaction table, this gives the Total Revenue across every year.
 ![1rev](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5c0c5b92-a11d-44c6-9898-7389c8474bec)
 
+Sales Quantity is gonna be the sum of sales_qty column from the transaction table, this gives the total number of sales over the years.
+
 ![1sale](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b5b8d95c-4685-4a15-8c72-2523db448a7e)
-### Revenue By Market :
+### Revenue By Market - Horizontal Bar Chart :
+This bar chart gives the visulaization of the revenue based on the markets available in the table .
 ![1revmar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb643870-e766-4d68-930f-423986fd3824)
-### Sales Quantity By Market : 
+
+![a1n](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5f289e29-8adb-4866-bcf8-b9727ad437ae)
+
+From this we infer that the Revenue obtained in the market Mumbai is 150.08 Million.
+### Sales Quantity By Market -  Horizontal Bar Chart : 
+This bar chart gives the visulaization of the Number of sales based on the markets available in the table .
 ![1salemar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb38e0a9-0057-4bab-b4b5-491194327ce5)
+
+![a2](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8a1078cc-8a2a-47d8-a2aa-42ec483bc901)
+
+From this we can infer that the number of sales occured in Nagpur is 262094.
+
 ### Time Scale : 
+Inorder to view the revenue based on date , we can use cy_date column in our dashborad.
 ![1year](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/6a2a68c3-b5c2-4e2b-82e5-43bd09bd3725)
+
 ![1date](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/7e9d01fb-3dcb-499e-aba3-377860949d31)
 ### Top 5 Customers : 
 ![15cus](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/abf00e6b-5a45-4ea6-8d05-341af517230c)

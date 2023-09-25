@@ -207,6 +207,10 @@ WHERE date.year = 2020 AND (transactions.currency = 'INR\r' OR transactions.curr
 ```
 ![val1a](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8adb4575-4a3c-45ff-9f72-7b0bbaf9c276)
 
+## Mobile Interface :
+![mobile](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e8835415-2438-4ce6-bd3d-17bc5267d59e)
+![mobile2019](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b588b6df-683e-402f-81ab-4ae4e69511ef)
+
 ## End goal :
 
 By using this interative PowerBi DashBoard the sales director is able to 
@@ -218,10 +222,6 @@ By using this interative PowerBi DashBoard the sales director is able to
 #3 . track revenue trends.
 
 Enabling him to finally work on the weak areas and come up with new ideas and grow their bussiness in a effective and efficient manner.
-
-## Mobile Interface :
-![mobile](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e8835415-2438-4ce6-bd3d-17bc5267d59e)
-![mobile2019](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b588b6df-683e-402f-81ab-4ae4e69511ef)
 
 ## Links :
 ##### SQL DOWNLOAD LINK :

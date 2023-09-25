@@ -138,14 +138,27 @@ Using filtering Options , we can visualize only the top 5 products by revenue ov
 
 ![a5ta](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/bb478d4e-bd5a-4ffe-8749-c3224ab817f0)
 
-### Revenue Trend : 
+### Revenue Trend - Line chart : 
+This revenue trend chart is build vs revenue and date to detect the increment and decrement in the revenue.
 ![1trend](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/ec9305b0-ebe6-4350-901f-b207191af336)
+##### Overall Revenue - Oct 
+![revb](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/80316a65-afcf-4282-87cb-a63b79bda550)
+##### Overall Revenue - Jan
+![revm](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/9977ec9e-9a95-403b-ae15-7c403bf8d0e0)
+##### Overall Revenue - Jun
+![reve](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/831e9a36-ecd6-4dfc-a63b-ff6c8fb7d4c8)
 
 ### Final Report : 
+Thus in this way an interactive PowerBI can be built.
+
+Previously the engineer team will spend money and time creating these kinds of dashboard. But by using these visualization tools like PowerBI , it becomes easy for the analyst to segregate data and visualize them. And the sales director is much more pleased and clear with the sales insights of his company by just interacting with the PowerBI dashboard.
+
 ![report](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d57fc7c5-4149-4b55-8bd6-93fb7ac7e496)
 
-
 ## Validation \ Cross Checking : 
+
+Lets check where the PowerBI dashboard yeilds the accurate results as in the dataset.
+
 
 
 ## End goal :

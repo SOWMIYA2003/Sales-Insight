@@ -8,10 +8,8 @@ The problem is that these conversations are verbal.Even though the managers come
 The sales director just expects the managers to give a statistical data which are in simpler terms inorder to focus on the weak area that they need to work on inorder to grow their bussiness further.
 
 ## Approach towards End goal : 
-Project Planning : We will be using AIMS Grid to tackle the problem and find the strategy to solve the problem.
+Project Planning : We will be using AIMS Grid to tackle the problem and find the strategy to solve the problem.Followed by Data discovery , Data cleaning , Data merging and finally generating an interactive dashboard in Power BI.
 ![Screenshot 2023-09-24 231726](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/2e85bc95-ad71-41bd-9c7c-7f9537400c80)
-
-Followed by Data discovery , Data cleaning , Data merging and finally generating an interactive dashboard in Power BI.
 
 ## DataSet : 
 We are provided with a database named "sales".

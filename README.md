@@ -219,6 +219,10 @@ By using this interative PowerBi DashBoard the sales director is able to
 
 Enabling him to finally work on the weak areas and come up with new ideas and grow their bussiness in a effective and efficient manner.
 
+## Mobile Interface :
+![mobile](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e8835415-2438-4ce6-bd3d-17bc5267d59e)
+![mobile2019](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b588b6df-683e-402f-81ab-4ae4e69511ef)
+
 ## Links :
 ##### SQL DOWNLOAD LINK :
 ```

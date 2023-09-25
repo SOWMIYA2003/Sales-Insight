@@ -108,10 +108,23 @@ This bar chart gives the visulaization of the Number of sales based on the marke
 From this we can infer that the number of sales occured in Nagpur is 262094.
 
 ### Time Scale : 
-Inorder to view the revenue based on date , we can use cy_date column in our dashborad.
+#### YEAR
+Inorder to view the revenue based on year, we can use cy_date column in our dashborad.
 ![1year](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/6a2a68c3-b5c2-4e2b-82e5-43bd09bd3725)
+##### The Revenue trend and status in the year 2018 
+![2018](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e4bf91a7-ed5e-4224-bc6b-a0d89ee029d6)
 
+##### The Revenue trend and status in the year 2020
+![2020](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/299d5fb5-55a4-4964-a735-1291c036b136)
+#### DATE
+Inorder to view the revenue based on date, we can use cy_date column in our dashborad.
 ![1date](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/7e9d01fb-3dcb-499e-aba3-377860949d31)
+##### The Revenue status at the beginning of the year 2019 (Jan)
+![2019](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5009b877-d30d-4e02-898c-63c2e79782d2)
+##### The Revenue status at the ending of the year 2019 (Dec)
+![2019dec](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/a035af78-76fa-4ec1-aaf3-2111da72a53a)
+
+From the data , we infer that there is a decrement in the revenue by 8.93 Million.
 ### Top 5 Customers : 
 ![15cus](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/abf00e6b-5a45-4ea6-8d05-341af517230c)
 ### Top 5 Products : 

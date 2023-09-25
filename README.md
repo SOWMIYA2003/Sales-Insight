@@ -107,7 +107,7 @@ This bar chart gives the visulaization of the Number of sales based on the marke
 
 From this we can infer that the number of sales occured in Nagpur is 262094.
 
-### Time Scale : 
+### Time Scale - Slicer : 
 #### YEAR
 Inorder to view the revenue based on year, we can use cy_date column in our dashborad.
 ![1year](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/6a2a68c3-b5c2-4e2b-82e5-43bd09bd3725)
@@ -118,6 +118,7 @@ Inorder to view the revenue based on year, we can use cy_date column in our dash
 ![2020](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/299d5fb5-55a4-4964-a735-1291c036b136)
 #### DATE
 Inorder to view the revenue based on date, we can use cy_date column in our dashborad.
+
 ![1date](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/7e9d01fb-3dcb-499e-aba3-377860949d31)
 ##### The Revenue status at the beginning of the year 2019 (Jan)
 ![2019](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5009b877-d30d-4e02-898c-63c2e79782d2)
@@ -126,11 +127,20 @@ Inorder to view the revenue based on date, we can use cy_date column in our dash
 
 From the data , we infer that there is a decrement in the revenue by 8.93 Million.
 ### Top 5 Customers : 
+Using filtering Options , we can visualize only the top 5 customers by revenue who contribute more to the sales of the company.
 ![15cus](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/abf00e6b-5a45-4ea6-8d05-341af517230c)
+
+![a5t](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b31185c8-d20b-44f2-88c2-f0873ab36b51)
+
 ### Top 5 Products : 
+Using filtering Options , we can visualize only the top 5 products by revenue over the sales period.
 ![15pro](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/697a3fe8-1b75-489c-ade4-a416abe41819)
+
+![a5ta](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/bb478d4e-bd5a-4ffe-8749-c3224ab817f0)
+
 ### Revenue Trend : 
 ![1trend](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/ec9305b0-ebe6-4350-901f-b207191af336)
+
 ### Final Report : 
 ![report](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/d57fc7c5-4149-4b55-8bd6-93fb7ac7e496)
 

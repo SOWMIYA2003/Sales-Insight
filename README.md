@@ -52,6 +52,7 @@ Once the data tables are loaded into the PowerBI , it creates a data model that 
 Inorder to handle all these issues we need to clean the data first. In simple terms , if we resolve the above issues our data tables will be cleaned and secure enough to produce the correct results during data processing.
 
 ### Removing the Null values from Markets table (column - zone): 
+
 ![ab](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/56bfe2e2-c57e-4658-a436-b279fd5a6686)
 
 ![b1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/00309bcf-f80c-4989-a7ad-6a611f3dc761)
@@ -77,28 +78,38 @@ Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrenc
 
 
 ## PowerBI : 
+
 ### Interface for creating Report : Data Visualization is done here.
+
 ![page](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8561f2b0-6ff1-48a4-82a9-b595789098ec)
 
 For our problem statement , we need to analyse the market status in different areas or zones to get the inference on the sales. And based on the sales insight and the trends the sales director will implement some ideas and solution to make the weak areas into stronger ones.
 ### Revenue and Sales - Card :
+
 Revenue and Sales Quantity are created and used as the Base Measures inorder to polt differnt UI elements.
 
 Revenue is gonna be the sum of sales_amount column from the tarnasaction table, this gives the Total Revenue across every year.
+
 ![1rev](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5c0c5b92-a11d-44c6-9898-7389c8474bec)
 
 Sales Quantity is gonna be the sum of sales_qty column from the transaction table, this gives the total number of sales over the years.
 
 ![1sale](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b5b8d95c-4685-4a15-8c72-2523db448a7e)
+
 ### Revenue By Market - Horizontal Bar Chart :
+
 This bar chart gives the visulaization of the revenue based on the markets available in the table .
+
 ![1revmar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb643870-e766-4d68-930f-423986fd3824)
 
 ![a1n](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5f289e29-8adb-4866-bcf8-b9727ad437ae)
 
 From this we infer that the Revenue obtained in the market Mumbai is 150.08 Million.
+
 ### Sales Quantity By Market -  Horizontal Bar Chart : 
+
 This bar chart gives the visulaization of the Number of sales based on the markets available in the table .
+
 ![1salemar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb38e0a9-0057-4bab-b4b5-491194327ce5)
 
 ![a2](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8a1078cc-8a2a-47d8-a2aa-42ec483bc901)
@@ -106,44 +117,68 @@ This bar chart gives the visulaization of the Number of sales based on the marke
 From this we can infer that the number of sales occured in Nagpur is 262094.
 
 ### Time Scale - Slicer : 
+
 #### YEAR
+
 Inorder to view the revenue based on year, we can use cy_date column in our dashborad.
+
 ![1year](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/6a2a68c3-b5c2-4e2b-82e5-43bd09bd3725)
+
 ##### The Revenue trend and status in the year 2018 
+
 ![2018](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e4bf91a7-ed5e-4224-bc6b-a0d89ee029d6)
 
 ##### The Revenue trend and status in the year 2020
+
 ![2020](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/299d5fb5-55a4-4964-a735-1291c036b136)
 #### DATE
+
 Inorder to view the revenue based on date, we can use cy_date column in our dashborad.
 
 ![1date](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/7e9d01fb-3dcb-499e-aba3-377860949d31)
+
 ##### The Revenue status at the beginning of the year 2019 (Jan)
+
 ![2019](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5009b877-d30d-4e02-898c-63c2e79782d2)
+
 ##### The Revenue status at the ending of the year 2019 (Dec)
+
 ![2019dec](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/a035af78-76fa-4ec1-aaf3-2111da72a53a)
 
 From the data , we infer that there is a decrement in the revenue by 8.93 Million.
+
 ### Top 5 Customers : 
+
 Using filtering Options , we can visualize only the top 5 customers by revenue who contribute more to the sales of the company.
+
 ![15cus](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/abf00e6b-5a45-4ea6-8d05-341af517230c)
 
 ![a5t](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b31185c8-d20b-44f2-88c2-f0873ab36b51)
 
 ### Top 5 Products : 
+
 Using filtering Options , we can visualize only the top 5 products by revenue over the sales period.
+
 ![15pro](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/697a3fe8-1b75-489c-ade4-a416abe41819)
 
 ![a5ta](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/bb478d4e-bd5a-4ffe-8749-c3224ab817f0)
 
 ### Revenue Trend - Line chart : 
+
 This revenue trend chart is build vs revenue and date to detect the increment and decrement in the revenue.
+
 ![1trend](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/ec9305b0-ebe6-4350-901f-b207191af336)
+
 ##### Overall Revenue - Oct 
+
 ![revb](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/80316a65-afcf-4282-87cb-a63b79bda550)
+
 ##### Overall Revenue - Jan
+
 ![revm](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/9977ec9e-9a95-403b-ae15-7c403bf8d0e0)
+
 ##### Overall Revenue - Jun
+
 ![reve](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/831e9a36-ecd6-4dfc-a63b-ff6c8fb7d4c8)
 
 ### Final Report : 
@@ -162,6 +197,7 @@ The overall revenue in the year 2020 is 142.22M - this is the number given by Po
 ![val1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/2f9429e4-24e0-4216-a549-f5419d8437c1)
 
 Using sql queries we can check the revenue yeild in the year 2020
+
 ```
 SELECT SUM(transactions.sales_amount)
 FROM sales.transactions

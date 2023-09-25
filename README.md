@@ -159,11 +159,23 @@ Previously the engineer team will spend money and time creating these kinds of d
 
 Lets check where the PowerBI dashboard yeilds the accurate results as in the dataset.
 
+The overall revenue in the year 2020 is 142.22M - this is the number given by PowerBI
 
+![val1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/2f9429e4-24e0-4216-a549-f5419d8437c1)
+
+Using sql queries we can check the revenue yeild in the year 2020
+```
+SELECT SUM(transactions.sales_amount)
+FROM sales.transactions
+INNER JOIN date ON transactions.order_date = date.date
+WHERE date.year = 2020 AND (transactions.currency = 'INR\r' OR transactions.currency = 'USD\r');
+
+```
+![val1a](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/8adb4575-4a3c-45ff-9f72-7b0bbaf9c276)
 
 ## End goal :
 
-By using the interative PowerBi DashBoard the sales director will be able to 
+By using this interative PowerBi DashBoard the sales director is able to 
 
 #1 . track revenue numbers and sales quantity numbers over the years .
 
@@ -171,7 +183,7 @@ By using the interative PowerBi DashBoard the sales director will be able to
 
 #3 . track revenue trends.
 
-Enabling him to finally work on the weak areas and come up with new ideas to grow their bussiness in a effective and efficient manner.
+Enabling him to finally work on the weak areas and come up with new ideas and grow their bussiness in a effective and efficient manner.
 
 ## Links :
 ##### SQL DOWNLOAD LINK :

@@ -85,8 +85,8 @@ Table.AddColumn(#"Cleanup currency", "normalize_sales_amount", each if [currrenc
 For our problem statement , we need to analyse the market status in different areas or zones to get the inference on the sales. And based on the sales insight and the trends the sales director will implement some ideas and solution to make the weak areas into stronger ones.
 ### Revenue and Sales :
 Revenue and Sales Quantity are created and used as the Base Measures for the dashboard.
+![1rev](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/5c0c5b92-a11d-44c6-9898-7389c8474bec)
 
-![1rev](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/e50ab082-671c-4716-8a69-ed3e3802b3e0)
 ![1sale](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/b5b8d95c-4685-4a15-8c72-2523db448a7e)
 ### Revenue By Market :
 ![1revmar](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/cb643870-e766-4d68-930f-423986fd3824)

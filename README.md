@@ -66,7 +66,7 @@ select * from sales.transactions;
 
 ### Converting monetary terms from USD to INR : 
 ```
-SELECT * FROM sales.transactions where currency = "USD" or currency = "USD\r";![image]
+SELECT * FROM sales.transactions where currency = "USD" or currency = "USD\r";
 ```
 ![aa1](https://github.com/SOWMIYA2003/Sales-Insight/assets/93427443/c81788b0-31e5-4b1f-8c89-3602d16f52ea)
 
